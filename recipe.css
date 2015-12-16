@@ -1,0 +1,87 @@
+body{
+	background-color:salmon;
+	color: aliceblue;
+	font-family: "Comic Sans MS";
+}
+#THE_TITLE { 
+	font-family:cursive;
+	font-size:3em;
+	color:#ffff99;
+	text-align:center;
+}
+.TITLE_BORDER {
+	border: 2px solid aqua;
+	margin:auto;
+	border-radius:5px;
+
+}
+.hide {
+	opacity:0;
+}
+.LABELS {
+	text-align: center;
+	font-family:cursive;
+
+}
+/*Search about box shadow and cropping, smth to do with overflow:hidden; play with height and width as well*/
+#KARP {
+	float:right;
+	border-radius:10px;
+	box-shadow: #FFFFCC 10px 10px;
+	padding:3px;
+	height:400px;
+	margin-top:50px;
+	-webkit-transition: width 4s, height 4s, 
+	-webkit-transform 2.5s;
+}
+
+#KARP:hover {
+    height: 500px;
+    width: 400px;
+    -webkit-transform: rotate(360deg);
+}
+#KARP1 {
+	border-radius:10px;
+	box-shadow: #FFFFCC 10px 10px;
+	-webkit-transition: 4s; 
+	-webkit-transform 2.5s;
+}
+.checked {
+	text-decoration: line-through;
+}
+#KARP1:hover {
+    -webkit-transform: rotate(720deg);
+}
+button {
+	display:block;
+	margin:auto;
+}
+#OIL {
+	display: block;
+	margin: auto;
+	height: 20%;
+	width: 20%;
+	border-radius:10px;
+	text-align:center;
+	-webkit-transition: 4s;
+}
+#OIL:hover{
+	opacity:0.1
+}
+.INSTRUCTIONS{
+	clear:right;
+}
+.INGREDIENTS ul li {
+	padding:2px;
+}
+.DISCLAIMER p {
+	text-align:center;
+}
+#LEFT_BOX {
+	float:left;
+	background-color:#FFFFCC;
+}
+.DISCLAIMER img {
+	display:block;
+	margin:auto;
+}
